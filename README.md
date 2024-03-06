@@ -1,4 +1,4 @@
-![Banner](https://github.com/lugomio/drums-of-liberation/tree/master/assets/img/banner.png);
+![Banner](https://github.com/lugomio/drums-of-liberation/blob/master/assets/img/banner.png);
 
 # Drums of Liberation
 
