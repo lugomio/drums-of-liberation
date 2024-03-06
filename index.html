@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drums of Liberation - lugom.io</title>
+    <meta name="og:title" content="Project - Drums of Liberation">
+    <meta name="og:description" content="Project made to enhance my programming skills with a virtual drum.">
+    <meta name="og:image" content="">
+    <meta name="description" content="Project made to enhance my programming skills with a virtual drum.">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="https://lugom.io/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <video class="w-100 h-100" src="./assets/video/background-luffy.mp4" autoplay muted loop></video>
+    <div class="overlay w-100 h-100">
+    </div>
+
+    <main class="flex-column-center w-100 h-100">
+        <h1>Drums Of Liberation</h1>
+
+        <section class="container">
+            <div data-key="65" class="key flex-column-center">
+                <kbd>A</kbd>
+                <span>Boom</span>
+            </div>
+            <div data-key="83" class="key flex-column-center">
+                <kbd>S</kbd>
+                <span>Hit Hat</span>
+            </div>
+            <div data-key="68" class="key flex-column-center">
+                <kbd>D</kbd>
+                <span>Kick</span>
+            </div>
+            <div data-key="70" class="key flex-column-center">
+                <kbd>F</kbd>
+                <span>Open Hat</span>
+            </div>
+            <div data-key="72" class="key flex-column-center">
+                <kbd>H</kbd>
+                <span>Ride</span>
+            </div>
+            <div data-key="74" class="key flex-column-center">
+                <kbd>J</kbd>
+                <span>Snare</span>
+            </div>
+            <div data-key="75" class="key flex-column-center">
+                <kbd>K</kbd>
+                <span>Tink</span>
+            </div>
+            <div data-key="76" class="key flex-column-center">
+                <kbd>L</kbd>
+                <span>Tom</span>
+            </div>
+        </section>
+    </main>
+
+    <audio data-key="65" src="./assets/sounds/boom.ogg" preload="auto"></audio>
+    <audio data-key="83" src="./assets/sounds/hihat.ogg" preload="auto"></audio>
+    <audio data-key="68" src="./assets/sounds/kick.ogg" preload="auto"></audio>
+    <audio data-key="70" src="./assets/sounds/openhat.ogg" preload="auto"></audio>
+    <audio data-key="72" src="./assets/sounds/ride.ogg" preload="auto"></audio>
+    <audio data-key="74" src="./assets/sounds/snare.ogg" preload="auto"></audio>
+    <audio data-key="75" src="./assets/sounds/tink.ogg" preload="auto"></audio>
+    <audio data-key="76" src="./assets/sounds/tom.ogg" preload="auto"></audio>
+
+    <script src="./assets/js/script.js"></script>
+    <script id="fixedNavLugomJs" src="https://lugom.io/assets/js/fixedNavLugom.js"></script>
+</body>
+
+</html>
